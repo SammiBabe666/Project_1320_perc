@@ -1,0 +1,4 @@
+592821a157b2266629752eabd0d1c1c91dc301a9339a2deb70c425a8c3bc549f  medieval.zip
+efcf4d4373b445bcdaaf9661975548c366602801e5e55de26cd57b50fa05e073  medieval-source.zip
+# inside medieval.zip (and medieval-source.zip's release/), medieval v0.2.3 for the Hundekraft Workshop:
+# 8caccf4251dc653d47250211ae120fae535a8b9084aaa4e0c24806016056de01  medieval.knl
