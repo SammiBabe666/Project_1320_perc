@@ -1,0 +1,30 @@
+1320 (Project 1320 Perc) - the EP-1320 Medieval drum bank as a native drum engine for Opus 2 on the original OP-1
+Copyright (C) 2026 Sammi (Project 1320 Perc)
+
+The source code (ep1320.c, p_voice.c, p_page.c, p_run.S, the tools, tests and bench) is free software under
+GPL-3.0-or-later with the additional permission below, as medieval (Project Medieval), whose voice it grew from. See
+LICENSE.
+
+ADDITIONAL PERMISSION (GPL-3.0 section 7), as in op1r-src
+As an additional permission, you may combine this program, or a work based on it, with the Teenage Engineering OP-1
+firmware (original or patched) and convey the resulting combination, provided that the parts of the combination
+that are this program or based on it are conveyed under the terms of the GPL with this additional permission. The
+OP-1 firmware itself is not covered by this license.
+
+NOT COVERED by this license
+- The audio in md_bank.h, and therefore in any built plugin file (ep1320.opmod): it is made from the factory sounds of
+  the Teenage Engineering EP-1320 Medieval, exported from the owner's own device. Copyright Teenage Engineering. It is
+  not ours to license. Keep builds that contain it for your own use, and share the source without md_bank.h (anyone
+  can make it again from their own EP-1320 exports with tools/bank/build_bank.py). The sound names in md_names.h are
+  the EP-1320's file names.
+
+CREDITS
+- Opus 2 and its plugin kit (core 2.30, beta 4 RC1): LizardMan245 and the Opus contributors.
+- The voice's interpolation filter, ADPCM bank format, click guards, drive, dusk and age: medieval v0.2.3 (same
+  author). The 1320 voice is new around them: it runs at 44.1 kHz inside Opus's 88.2 kHz block, in window runs, with
+  a table decoder and a hand-scheduled Blackfin loop.
+- Control layout idea (one sound per key across all 24 keys, pitch / decay / tone on the encoders): GIN by
+  SquareWave Studio (op1-mods, MIT). No GIN code is used.
+- IMA ADPCM: the public Interactive Multimedia Association algorithm (step and index tables).
+- bench/crt0.S and link.ld: from Project Medieval's and Project ERD's cycle bench (same author, same licence). The
+  Blackfin simulator they run in is GDB's sim/bfin (GPL-3.0-or-later), not included.

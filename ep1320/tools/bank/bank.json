@@ -1,0 +1,965 @@
+{
+ "bytes": 436608,
+ "sounds": [
+  {
+   "num": 1,
+   "name": "BATTLE KIK",
+   "kit": "war drums",
+   "key": 0,
+   "rate": 11025,
+   "seconds": 0.37,
+   "bytes": 2304,
+   "snr_db": 32.9
+  },
+  {
+   "num": 6,
+   "name": "STOMP A",
+   "kit": "war drums",
+   "key": 1,
+   "rate": 11025,
+   "seconds": 0.33,
+   "bytes": 2052,
+   "snr_db": 31.7
+  },
+  {
+   "num": 2,
+   "name": "MEDIUM EVIL KIK",
+   "kit": "war drums",
+   "key": 2,
+   "rate": 11025,
+   "seconds": 0.39,
+   "bytes": 2448,
+   "snr_db": 33.3
+  },
+  {
+   "num": 7,
+   "name": "STOMP B",
+   "kit": "war drums",
+   "key": 3,
+   "rate": 11025,
+   "seconds": 0.61,
+   "bytes": 3816,
+   "snr_db": 29.7
+  },
+  {
+   "num": 50,
+   "name": "WAR TOM A",
+   "kit": "war drums",
+   "key": 4,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 39.1
+  },
+  {
+   "num": 19,
+   "name": "BIG CLAP",
+   "kit": "war drums",
+   "key": 5,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 24.9
+  },
+  {
+   "num": 51,
+   "name": "WAR TOM B",
+   "kit": "war drums",
+   "key": 6,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 40.4
+  },
+  {
+   "num": 52,
+   "name": "WAR TOM C",
+   "kit": "war drums",
+   "key": 7,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 40.9
+  },
+  {
+   "num": 18,
+   "name": "THUD",
+   "kit": "war drums",
+   "key": 8,
+   "rate": 16000,
+   "seconds": 0.8,
+   "bytes": 7200,
+   "snr_db": 23.1
+  },
+  {
+   "num": 58,
+   "name": "DEEP TOM C",
+   "kit": "war drums",
+   "key": 9,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 41.1
+  },
+  {
+   "num": 157,
+   "name": "ARMOR THUD",
+   "kit": "war drums",
+   "key": 10,
+   "rate": 16000,
+   "seconds": 0.69,
+   "bytes": 6228,
+   "snr_db": 22.6
+  },
+  {
+   "num": 60,
+   "name": "PLAGUE DRUM B",
+   "kit": "war drums",
+   "key": 11,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 41.1
+  },
+  {
+   "num": 61,
+   "name": "PLAGUE DRUM C",
+   "kit": "war drums",
+   "key": 12,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 44.4
+  },
+  {
+   "num": 66,
+   "name": "PLAGUE DRUM EDGE",
+   "kit": "war drums",
+   "key": 13,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 36.0
+  },
+  {
+   "num": 62,
+   "name": "PLAGUE DRUM D",
+   "kit": "war drums",
+   "key": 14,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 44.7
+  },
+  {
+   "num": 175,
+   "name": "CHAIN THUD",
+   "kit": "war drums",
+   "key": 15,
+   "rate": 22050,
+   "seconds": 0.41,
+   "bytes": 5112,
+   "snr_db": 22.7
+  },
+  {
+   "num": 63,
+   "name": "PLAGUE DRUM E",
+   "kit": "war drums",
+   "key": 16,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 42.5
+  },
+  {
+   "num": 43,
+   "name": "CHAIN HIT",
+   "kit": "war drums",
+   "key": 17,
+   "rate": 22050,
+   "seconds": 0.58,
+   "bytes": 7200,
+   "snr_db": 22.3
+  },
+  {
+   "num": 10,
+   "name": "FAIR SNARE",
+   "kit": "war drums",
+   "key": 18,
+   "rate": 22050,
+   "seconds": 0.26,
+   "bytes": 3240,
+   "snr_db": 28.9
+  },
+  {
+   "num": 15,
+   "name": "EDGE A",
+   "kit": "war drums",
+   "key": 19,
+   "rate": 16000,
+   "seconds": 0.56,
+   "bytes": 5040,
+   "snr_db": 22.5
+  },
+  {
+   "num": 156,
+   "name": "ANVIL HIT",
+   "kit": "war drums",
+   "key": 20,
+   "rate": 22050,
+   "seconds": 0.58,
+   "bytes": 7200,
+   "snr_db": 20.4
+  },
+  {
+   "num": 155,
+   "name": "HELL BELL",
+   "kit": "war drums",
+   "key": 21,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 25.9
+  },
+  {
+   "num": 171,
+   "name": "SWORD CLANG",
+   "kit": "war drums",
+   "key": 22,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 20.4
+  },
+  {
+   "num": 8,
+   "name": "STOMP C",
+   "kit": "war drums",
+   "key": 23,
+   "rate": 16000,
+   "seconds": 0.31,
+   "bytes": 2808,
+   "snr_db": 29.2
+  },
+  {
+   "num": 53,
+   "name": "FRAME DRUM A",
+   "kit": "tavern",
+   "key": 0,
+   "rate": 11025,
+   "seconds": 0.46,
+   "bytes": 2880,
+   "snr_db": 28.2
+  },
+  {
+   "num": 30,
+   "name": "CLAPPER A",
+   "kit": "tavern",
+   "key": 1,
+   "rate": 22050,
+   "seconds": 0.08,
+   "bytes": 1008,
+   "snr_db": 20.5
+  },
+  {
+   "num": 54,
+   "name": "FRAME DRUM B",
+   "kit": "tavern",
+   "key": 2,
+   "rate": 11025,
+   "seconds": 0.62,
+   "bytes": 3852,
+   "snr_db": 37.8
+  },
+  {
+   "num": 31,
+   "name": "CLAPPER B",
+   "kit": "tavern",
+   "key": 3,
+   "rate": 22050,
+   "seconds": 0.11,
+   "bytes": 1368,
+   "snr_db": 18.3
+  },
+  {
+   "num": 46,
+   "name": "FRAME TOM A",
+   "kit": "tavern",
+   "key": 4,
+   "rate": 11025,
+   "seconds": 0.61,
+   "bytes": 3816,
+   "snr_db": 38.2
+  },
+  {
+   "num": 32,
+   "name": "COCONUT A",
+   "kit": "tavern",
+   "key": 5,
+   "rate": 16000,
+   "seconds": 0.19,
+   "bytes": 1728,
+   "snr_db": 22.7
+  },
+  {
+   "num": 47,
+   "name": "FRAME TOM B",
+   "kit": "tavern",
+   "key": 6,
+   "rate": 11025,
+   "seconds": 0.56,
+   "bytes": 3492,
+   "snr_db": 39.8
+  },
+  {
+   "num": 48,
+   "name": "FRAME TOM C",
+   "kit": "tavern",
+   "key": 7,
+   "rate": 11025,
+   "seconds": 0.62,
+   "bytes": 3852,
+   "snr_db": 37.1
+  },
+  {
+   "num": 33,
+   "name": "COCONUT B",
+   "kit": "tavern",
+   "key": 8,
+   "rate": 11025,
+   "seconds": 0.14,
+   "bytes": 900,
+   "snr_db": 16.2
+  },
+  {
+   "num": 49,
+   "name": "FRAME TOM D",
+   "kit": "tavern",
+   "key": 9,
+   "rate": 11025,
+   "seconds": 0.55,
+   "bytes": 3420,
+   "snr_db": 26.8
+  },
+  {
+   "num": 34,
+   "name": "COCONUT C",
+   "kit": "tavern",
+   "key": 10,
+   "rate": 22050,
+   "seconds": 0.07,
+   "bytes": 900,
+   "snr_db": 24.0
+  },
+  {
+   "num": 55,
+   "name": "FRAME DRUM C",
+   "kit": "tavern",
+   "key": 11,
+   "rate": 16000,
+   "seconds": 0.35,
+   "bytes": 3168,
+   "snr_db": 30.8
+  },
+  {
+   "num": 11,
+   "name": "MARKET SNARE",
+   "kit": "tavern",
+   "key": 12,
+   "rate": 22050,
+   "seconds": 0.35,
+   "bytes": 4356,
+   "snr_db": 24.8
+  },
+  {
+   "num": 20,
+   "name": "TAMBO A",
+   "kit": "tavern",
+   "key": 13,
+   "rate": 22050,
+   "seconds": 0.2,
+   "bytes": 2484,
+   "snr_db": 21.3
+  },
+  {
+   "num": 12,
+   "name": "TAMBO SNARE",
+   "kit": "tavern",
+   "key": 14,
+   "rate": 22050,
+   "seconds": 0.38,
+   "bytes": 4716,
+   "snr_db": 24.4
+  },
+  {
+   "num": 27,
+   "name": "TAMBO HAT",
+   "kit": "tavern",
+   "key": 15,
+   "rate": 22050,
+   "seconds": 0.07,
+   "bytes": 900,
+   "snr_db": 17.4
+  },
+  {
+   "num": 13,
+   "name": "JESTER SNARE",
+   "kit": "tavern",
+   "key": 16,
+   "rate": 16000,
+   "seconds": 0.3,
+   "bytes": 2700,
+   "snr_db": 27.2
+  },
+  {
+   "num": 28,
+   "name": "TAMBO SHORT",
+   "kit": "tavern",
+   "key": 17,
+   "rate": 22050,
+   "seconds": 0.08,
+   "bytes": 1008,
+   "snr_db": 18.9
+  },
+  {
+   "num": 21,
+   "name": "TAMBO B",
+   "kit": "tavern",
+   "key": 18,
+   "rate": 22050,
+   "seconds": 0.54,
+   "bytes": 6732,
+   "snr_db": 17.0
+  },
+  {
+   "num": 29,
+   "name": "TAMBO CAP",
+   "kit": "tavern",
+   "key": 19,
+   "rate": 22050,
+   "seconds": 0.07,
+   "bytes": 900,
+   "snr_db": 19.6
+  },
+  {
+   "num": 23,
+   "name": "TAMBO D",
+   "kit": "tavern",
+   "key": 20,
+   "rate": 22050,
+   "seconds": 0.49,
+   "bytes": 6084,
+   "snr_db": 19.0
+  },
+  {
+   "num": 26,
+   "name": "TAMBO TIGHT A",
+   "kit": "tavern",
+   "key": 21,
+   "rate": 22050,
+   "seconds": 0.09,
+   "bytes": 1116,
+   "snr_db": 17.1
+  },
+  {
+   "num": 25,
+   "name": "TAMBO LONG",
+   "kit": "tavern",
+   "key": 22,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 20.0
+  },
+  {
+   "num": 199,
+   "name": "PEASANT HEY",
+   "kit": "tavern",
+   "key": 23,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 26.3
+  },
+  {
+   "num": 3,
+   "name": "AXE KIK",
+   "kit": "armory",
+   "key": 0,
+   "rate": 11025,
+   "seconds": 0.45,
+   "bytes": 2808,
+   "snr_db": 33.9
+  },
+  {
+   "num": 38,
+   "name": "JUNK",
+   "kit": "armory",
+   "key": 1,
+   "rate": 22050,
+   "seconds": 0.29,
+   "bytes": 3600,
+   "snr_db": 24.2
+  },
+  {
+   "num": 9,
+   "name": "STOMP D",
+   "kit": "armory",
+   "key": 2,
+   "rate": 11025,
+   "seconds": 0.37,
+   "bytes": 2304,
+   "snr_db": 27.9
+  },
+  {
+   "num": 37,
+   "name": "SCRAP",
+   "kit": "armory",
+   "key": 3,
+   "rate": 22050,
+   "seconds": 0.35,
+   "bytes": 4356,
+   "snr_db": 23.2
+  },
+  {
+   "num": 41,
+   "name": "RUBBLE",
+   "kit": "armory",
+   "key": 4,
+   "rate": 22050,
+   "seconds": 0.27,
+   "bytes": 3384,
+   "snr_db": 25.2
+  },
+  {
+   "num": 36,
+   "name": "DROPPER",
+   "kit": "armory",
+   "key": 5,
+   "rate": 16000,
+   "seconds": 0.47,
+   "bytes": 4248,
+   "snr_db": 26.0
+  },
+  {
+   "num": 40,
+   "name": "DEBRIS B",
+   "kit": "armory",
+   "key": 6,
+   "rate": 16000,
+   "seconds": 0.5,
+   "bytes": 4500,
+   "snr_db": 23.2
+  },
+  {
+   "num": 42,
+   "name": "METAL CLANK",
+   "kit": "armory",
+   "key": 7,
+   "rate": 16000,
+   "seconds": 0.49,
+   "bytes": 4428,
+   "snr_db": 21.9
+  },
+  {
+   "num": 44,
+   "name": "SCRAP BRUSH",
+   "kit": "armory",
+   "key": 8,
+   "rate": 16000,
+   "seconds": 0.43,
+   "bytes": 3888,
+   "snr_db": 22.6
+  },
+  {
+   "num": 159,
+   "name": "CLANK A",
+   "kit": "armory",
+   "key": 9,
+   "rate": 22050,
+   "seconds": 0.46,
+   "bytes": 5724,
+   "snr_db": 23.2
+  },
+  {
+   "num": 161,
+   "name": "CLINK",
+   "kit": "armory",
+   "key": 10,
+   "rate": 16000,
+   "seconds": 0.4,
+   "bytes": 3600,
+   "snr_db": 20.0
+  },
+  {
+   "num": 160,
+   "name": "CLANK B",
+   "kit": "armory",
+   "key": 11,
+   "rate": 22050,
+   "seconds": 0.35,
+   "bytes": 4356,
+   "snr_db": 21.2
+  },
+  {
+   "num": 166,
+   "name": "SWORD A",
+   "kit": "armory",
+   "key": 12,
+   "rate": 22050,
+   "seconds": 0.29,
+   "bytes": 3600,
+   "snr_db": 19.4
+  },
+  {
+   "num": 170,
+   "name": "SWORD CLINK",
+   "kit": "armory",
+   "key": 13,
+   "rate": 22050,
+   "seconds": 0.25,
+   "bytes": 3132,
+   "snr_db": 19.0
+  },
+  {
+   "num": 167,
+   "name": "SWORD B",
+   "kit": "armory",
+   "key": 14,
+   "rate": 22050,
+   "seconds": 0.25,
+   "bytes": 3132,
+   "snr_db": 18.7
+  },
+  {
+   "num": 163,
+   "name": "ARROW HIT",
+   "kit": "armory",
+   "key": 15,
+   "rate": 16000,
+   "seconds": 0.8,
+   "bytes": 7200,
+   "snr_db": 25.1
+  },
+  {
+   "num": 168,
+   "name": "SWORD C",
+   "kit": "armory",
+   "key": 16,
+   "rate": 22050,
+   "seconds": 0.37,
+   "bytes": 4608,
+   "snr_db": 21.2
+  },
+  {
+   "num": 169,
+   "name": "SWORD D",
+   "kit": "armory",
+   "key": 17,
+   "rate": 22050,
+   "seconds": 0.18,
+   "bytes": 2232,
+   "snr_db": 18.9
+  },
+  {
+   "num": 172,
+   "name": "SWORD SCRAPE",
+   "kit": "armory",
+   "key": 18,
+   "rate": 22050,
+   "seconds": 0.54,
+   "bytes": 6732,
+   "snr_db": 18.6
+  },
+  {
+   "num": 174,
+   "name": "CHAIN",
+   "kit": "armory",
+   "key": 19,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 20.0
+  },
+  {
+   "num": 39,
+   "name": "DEBRIS A",
+   "kit": "armory",
+   "key": 20,
+   "rate": 16000,
+   "seconds": 0.76,
+   "bytes": 6840,
+   "snr_db": 21.1
+  },
+  {
+   "num": 187,
+   "name": "WOOSH B",
+   "kit": "armory",
+   "key": 21,
+   "rate": 16000,
+   "seconds": 0.19,
+   "bytes": 1728,
+   "snr_db": 23.3
+  },
+  {
+   "num": 158,
+   "name": "BEHEADING",
+   "kit": "armory",
+   "key": 22,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 25.8
+  },
+  {
+   "num": 182,
+   "name": "SNAPPER",
+   "kit": "armory",
+   "key": 23,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 21.4
+  },
+  {
+   "num": 5,
+   "name": "ROYAL KIK",
+   "kit": "royal court",
+   "key": 0,
+   "rate": 11025,
+   "seconds": 0.5,
+   "bytes": 3132,
+   "snr_db": 38.9
+  },
+  {
+   "num": 64,
+   "name": "PLAGUE DRUM F",
+   "kit": "royal court",
+   "key": 1,
+   "rate": 11025,
+   "seconds": 0.31,
+   "bytes": 1944,
+   "snr_db": 39.8
+  },
+  {
+   "num": 4,
+   "name": "MEDIKIK",
+   "kit": "royal court",
+   "key": 2,
+   "rate": 11025,
+   "seconds": 0.53,
+   "bytes": 3312,
+   "snr_db": 42.5
+  },
+  {
+   "num": 14,
+   "name": "TIGHT SNARE",
+   "kit": "royal court",
+   "key": 3,
+   "rate": 16000,
+   "seconds": 0.14,
+   "bytes": 1260,
+   "snr_db": 25.3
+  },
+  {
+   "num": 56,
+   "name": "DEEP TOM A",
+   "kit": "royal court",
+   "key": 4,
+   "rate": 11025,
+   "seconds": 0.34,
+   "bytes": 2124,
+   "snr_db": 41.5
+  },
+  {
+   "num": 67,
+   "name": "PLAGUE DRUM EDG B",
+   "kit": "royal court",
+   "key": 5,
+   "rate": 11025,
+   "seconds": 0.35,
+   "bytes": 2196,
+   "snr_db": 34.5
+  },
+  {
+   "num": 57,
+   "name": "DEEP TOM B",
+   "kit": "royal court",
+   "key": 6,
+   "rate": 11025,
+   "seconds": 0.38,
+   "bytes": 2376,
+   "snr_db": 41.7
+  },
+  {
+   "num": 68,
+   "name": "PLAGUE DRUM SOFT",
+   "kit": "royal court",
+   "key": 7,
+   "rate": 11025,
+   "seconds": 0.73,
+   "bytes": 4536,
+   "snr_db": 37.3
+  },
+  {
+   "num": 17,
+   "name": "EDGE C",
+   "kit": "royal court",
+   "key": 8,
+   "rate": 16000,
+   "seconds": 0.36,
+   "bytes": 3240,
+   "snr_db": 16.3
+  },
+  {
+   "num": 69,
+   "name": "PLAGUE DRUM SOF B",
+   "kit": "royal court",
+   "key": 9,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 39.0
+  },
+  {
+   "num": 16,
+   "name": "EDGE B",
+   "kit": "royal court",
+   "key": 10,
+   "rate": 16000,
+   "seconds": 0.65,
+   "bytes": 5868,
+   "snr_db": 22.7
+  },
+  {
+   "num": 59,
+   "name": "PLAGUE DRUM A",
+   "kit": "royal court",
+   "key": 11,
+   "rate": 11025,
+   "seconds": 0.3,
+   "bytes": 1872,
+   "snr_db": 35.5
+  },
+  {
+   "num": 130,
+   "name": "STAB A",
+   "kit": "royal court",
+   "key": 12,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 27.2
+  },
+  {
+   "num": 136,
+   "name": "HONK",
+   "kit": "royal court",
+   "key": 13,
+   "rate": 16000,
+   "seconds": 0.77,
+   "bytes": 6948,
+   "snr_db": 22.6
+  },
+  {
+   "num": 131,
+   "name": "STAB B",
+   "kit": "royal court",
+   "key": 14,
+   "rate": 16000,
+   "seconds": 0.8,
+   "bytes": 7200,
+   "snr_db": 22.4
+  },
+  {
+   "num": 118,
+   "name": "TRUMPET",
+   "kit": "royal court",
+   "key": 15,
+   "rate": 16000,
+   "seconds": 0.8,
+   "bytes": 7200,
+   "snr_db": 20.0
+  },
+  {
+   "num": 134,
+   "name": "STAB E",
+   "kit": "royal court",
+   "key": 16,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 26.6
+  },
+  {
+   "num": 116,
+   "name": "GLITTERN",
+   "kit": "royal court",
+   "key": 17,
+   "rate": 16000,
+   "seconds": 0.8,
+   "bytes": 7200,
+   "snr_db": 25.9
+  },
+  {
+   "num": 83,
+   "name": "GLITTERN A",
+   "kit": "royal court",
+   "key": 18,
+   "rate": 22050,
+   "seconds": 0.8,
+   "bytes": 9936,
+   "snr_db": 25.0
+  },
+  {
+   "num": 151,
+   "name": "DRONE A",
+   "kit": "royal court",
+   "key": 19,
+   "rate": 11025,
+   "seconds": 0.78,
+   "bytes": 4860,
+   "snr_db": 26.9
+  },
+  {
+   "num": 124,
+   "name": "CITOLE",
+   "kit": "royal court",
+   "key": 20,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 25.4
+  },
+  {
+   "num": 122,
+   "name": "MOUTH HARP",
+   "kit": "royal court",
+   "key": 21,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 28.5
+  },
+  {
+   "num": 144,
+   "name": "CIT CHRD A",
+   "kit": "royal court",
+   "key": 22,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 29.1
+  },
+  {
+   "num": 138,
+   "name": "HORN A",
+   "kit": "royal court",
+   "key": 23,
+   "rate": 11025,
+   "seconds": 0.8,
+   "bytes": 4968,
+   "snr_db": 31.7
+  }
+ ]
+}

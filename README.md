@@ -17,9 +17,11 @@ build. Unzip it, pick the folder for the firmware mod your OP-1 runs, and follow
 | `presets/drum/medieval/` | Four drum kits (siege, crypt, jester feast, plague cart): copy the `medieval` folder into the OP-1 disk's `drum/` folder. |
 | `INSTALL.txt` | The steps, the kits and the pages. |
 
-**Opus 2:** not in the zip yet. [Opus 2](https://github.com/LizardMan245/opus) adds synth engines but has no drum
-type. Its bridge runs Hundekraft synths, effects and sequencers, but not drum types. The Opus build waits for the new
-bridge. `opus/FEASIBILITY.md` in the source zip has the details.
+**Opus 2:** beta 4 added drum engines, so 1320 is now a native Opus 2.0 beta 4 drum engine (v0.3.0). Its source is in
+[`ep1320/`](ep1320/README.md), with install notes, CPU figures and tests. The `.opmod` and `md_bank.h` hold the EP-1320
+audio, so they aren't in this repository: build them from your own exports. Not yet tried on an OP-1.
+
+![The 1320 T1 page, rendered on the host](media/ep1320_pages.png)
 
 Checksums: [`SHA256SUMS.txt`](SHA256SUMS.txt).
 

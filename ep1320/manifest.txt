@@ -1,0 +1,12 @@
+# sammi.ep1320 (1320): the EP-1320 medieval percussion bank as a native drum engine for Opus 2.0 beta 4.
+# "1320" in the drum's engine list (shift + T1 in drum mode). Every key holds its own sound and settings, saved with
+# the kit: blue tune, green sound (96), white decay, orange drive; shift: start (upper half reversed), dusk, age,
+# level. Twelve voices, at most "voices" sounding at once (8 to start); the tambourines choke each other.
+opmod     1
+id        sammi.ep1320
+name      1320
+author    sammi
+version   0.3.0
+core      2.26
+adds      engine 1320
+setting   voices 4 12 8 "voices at once"

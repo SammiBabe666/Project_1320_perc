@@ -1,0 +1,85 @@
+1320 v0.3.0 test results, 2026-11-06. Run on a PC (x86_64 Linux, cc 13.3.0) and in GDB's Blackfin
+simulator on the Mac's Linux shell (shared toolchain). Nothing here ran on an OP-1.
+
+== host tests: tests/run.sh (ASan + UBSan)
+all sounds: 576 hits, all ended; largest step in a hit's first 8 samples 77; loudest peak 17182
+retrigger: largest step at a retrigger 125
+choke: largest step 415, finished within its block
+levels (battle kik): velocity 127 peak 15031, velocity 64 peak 3815, half level peak 7514, full drive peak 10366
+decay (big clap): natural 552 blocks, shortest 25 blocks (30 ms to -60 dB)
+1 voice,   plain,    tune  0       hash c90dab71
+1 voice,   plain,    tune +12      hash c64a8530
+1 voice,   plain,    tune +24 x2   hash 731ed69e
+1 voice,   heaviest, tune  0       hash 1934bd95
+1 voice,   heaviest, tune +24 x2   hash 672a99e7
+8 voices,  plain,    tune  0       hash d25a3a36
+8 voices,  plain,    tune +24 x2   hash 4564c57a
+8 voices,  heaviest, tune +24 x2   hash 37ed8213
+8 voices,  heaviest, retriggered   hash ea42e92a
+12 voices, plain,    tune  0       hash cbd3ef0c
+12 voices, plain,    tune +24 x2   hash a3232ef3
+12 voices, heaviest, tune  0       hash 46daced1
+12 voices, heaviest, tune +24 x2   hash 2cd4af9a
+12 voices, heaviest, retriggered   hash 037f8c54
+OK: all checks passed
+engine: "1320", 192 bytes a voice, flags 0x210
+default kit: battle kik, tambo hat, medium evil kik, tambo short, fair snare, tambo long, big clap, market snare, clapper a, jester snare, coconut a, tight snare, war tom a, tambo cap, frame tom a, coconut b, deep tom a, clank a, anvil hit, sword clang, chain hit, hell bell, stab a, royal kik
+voices  8: 6000 blocks of bursts, most sounding at once 8 (fades included), blocks playing past the limit 0, left sounding 0
+voices  4: 6000 blocks of bursts, most sounding at once 4 (fades included), blocks playing past the limit 0, left sounding 0
+voices 12: 6000 blocks of bursts, most sounding at once 12 (fades included), blocks playing past the limit 0, left sounding 0
+choke: tambo hat stops tambo long within 1 block: yes
+OK: engine checks passed
+decoder: 12128 blocks of the bank, 0 differ from the reference decoder
+page: 300 random pages, 23565 shapes and texts, 0 outside the window or moved
+
+== static analysis: gcc -fanalyzer -Wall -Wextra on p_voice.c, ep1320.c, p_page.c
+warnings: 0
+
+== toolchain
+bfin-elf-gcc (GCC) 13.3.0
+GNU assembler (GNU Binutils) 2.38
+== Blackfin simulator bench (bench/run.sh)
+1 voice,   plain,    tune  0       worst 6747 avg 5314 hash c90dab71
+1 voice,   plain,    tune +12      worst 6747 avg 6283 hash c64a8530
+1 voice,   plain,    tune +24 x2   worst 8686 avg 8222 hash 731ed69e
+1 voice,   heaviest, tune  0       worst 11470 avg 9228 hash 1934bd95
+1 voice,   heaviest, tune +24 x2   worst 15360 avg 12146 hash 672a99e7
+8 voices,  plain,    tune  0       worst 53976 avg 42514 hash d25a3a36
+8 voices,  plain,    tune +24 x2   worst 69488 avg 65782 hash 4564c57a
+8 voices,  heaviest, tune +24 x2   worst 122880 avg 97171 hash 37ed8213
+8 voices,  heaviest, retriggered   worst 125392 avg 100513 hash ea42e92a
+12 voices, plain,    tune  0       worst 80964 avg 63513 hash cbd3ef0c
+12 voices, plain,    tune +24 x2   worst 104232 avg 98674 hash a3232ef3
+12 voices, heaviest, tune  0       worst 141530 avg 110487 hash 46daced1
+12 voices, heaviest, tune +24 x2   worst 184320 avg 145757 hash 2cd4af9a
+12 voices, heaviest, retriggered   worst 188088 avg 150770 hash 037f8c54
+worst block of all cases: 188088
+(every hash equals the host's above: the Blackfin build, with p_run.S, plays the same samples as the C)
+
+== Opus 2 beta 4 RC1 plugin kit (opus2-plugin-kit-beta4-rc1.zip, SHA-256 5651bb76...39fed4f6, the same as in the
+   uploaded opus2-beta4-rc1.zip): plugin_tool.py build, -Wall -Wextra -Werror, then show
+# sammi.ep1320 (1320): the EP-1320 medieval percussion bank as a native drum engine for Opus 2.0 beta 4.
+# "1320" in the drum's engine list (shift + T1 in drum mode). Every key holds its own sound and settings, saved with
+# the kit: blue tune, green sound (96), white decay, orange drive; shift: start (upper half reversed), dusk, age,
+# level. Twelve voices, at most "voices" sounding at once (8 to start); the tambourines choke each other.
+opmod     1
+id        sammi.ep1320
+name      1320
+author    sammi
+version   0.3.0
+core      2.26
+adds      engine 1320
+setting   voices 4 12 8 "voices at once"
+# built by op1mod plugin
+deep      none
+ram       image 459872 zero 176
+imports   16
+cpu       200000
+checked: none (no checked line: not recorded as tested)
+image 459872 bytes, zero fill 176, entry +0x250, 163 relocations, imports: opus_alloc_audio, opus_drum_key, opus_engine_add, opus_fast_lease, opus_fast_use, opus_log, opus_on_setting, opus_page_bar, opus_page_dot, opus_page_fill, opus_page_line, opus_page_still, opus_page_still_done, opus_page_text, opus_page_text_right, opus_setting
+ep1320.opmod SHA-256 071c97ca0d7b259eeb883e5833133bb2da1dc7a15dab25064887ddceb0a05902; built twice: the same bytes
+
+== not run
+- On an OP-1: loading on beta 4, playing, the page on the real screen, saving and loading kits, the drum LFO and
+  the matrix, the CPU figure (cpu.txt holds a simulator estimate), the monitor's figures, other plugins beside it.
+- Opus's own emulator: the kit has none yet.
