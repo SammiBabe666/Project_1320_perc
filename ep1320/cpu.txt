@@ -1,0 +1,7 @@
+# The plugin's CPU figure: its worst audio block in cycles, the budget the core holds it to (the build writes it as
+# the manifest's cpu line). NOT a device measurement yet: an estimate from the Blackfin instruction-set simulator
+# (bench/run.sh, 2026-11-06), whose worst case is 188,088 cycles with all twelve voices at the heaviest settings
+# (drive, dusk and age full, reversed, two octaves up and retriggered), rounded up for the device's memory waits.
+# The voices setting's default, 8, measures 125,392 at the same settings and 53,976 for eight plain hits.
+# Replace it with "audio: worst N" from the mods list (developer mode, the heaviest playing) once measured.
+cycles 200000
