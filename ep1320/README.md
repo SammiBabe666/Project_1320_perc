@@ -18,7 +18,7 @@ lines.
 ## Install
 
 The `.opmod` holds the EP-1320 audio, so it isn't published with the source (see `NOTICE`). Build it yourself
-(below) or use your own copy. The builds stay private.
+from your own EP-1320 exports (below). Keep your build for your own use.
 
 1. Opus 2.0 beta 4 on the OP-1 (the beta's patcher page makes the update from your own `op1_246.op1`).
 2. Disk mode (shift + COM, then T3). Copy `ep1320.opmod` into the disk's `mods` folder. Eject, switch off and on.
@@ -149,11 +149,11 @@ bash bench/run.sh                    # Blackfin simulator: cycles, and the hashe
 
 See `test-results.txt` for the last run.
 
-## Not tested yet
+## On an OP-1
 
-Everything that needs an OP-1: loading on beta 4, the sound through the OS's mixer, the page on the real screen and
-font, kits saving and loading, the drum LFO and the matrix on its numbers, the CPU figure, and running beside other
-plugins. Only after you've tried it does the manifest get a `checked device` line and `cpu.txt` a measured figure.
+v0.3.0 plays on an OP-1 with Opus 2.0 beta 4 (tried 2026-11-06). Not measured yet: the CPU figure on the device and
+running beside other plugins, so the manifest has no `checked device` line and `cpu.txt` still holds the simulator
+estimate.
 
 ## Files
 
